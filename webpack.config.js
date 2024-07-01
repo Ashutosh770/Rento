@@ -2,6 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
+  mode: 'production', // Change to 'development' as needed
   entry: './index.web.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -31,6 +32,7 @@ module.exports = {
           loader: 'file-loader',
           options: {
             name: '[name].[ext]',
+            outputPath: 'assets/',
           },
         },
       },
