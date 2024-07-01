@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "a2ca0cdf3356f4b019639311b8ea81dee6f3176b"
+    },
+    {
+      "path": "src/assets/fonts/react-native.config.js",
+      "sha1": "591a35659b5f8f8f7a2779045e16053376d90f73"
+    },
+    {
+      "path": "src/assets/fonts/Shrikhand-Regular.ttf",
+      "sha1": "ee1a2ca14244d2173f066edb18eb96b6faf4c09f"
+    }
+  ]
+}
