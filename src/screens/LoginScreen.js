@@ -9,8 +9,8 @@ const LoginScreen = ({ navigation }) => {
 
 
   const handleLogin = () => {
-    if ((username === 'Rento' || username === 'Ashutosh') &&
-        (password === 'Rento2025' || password === 'Ashu123@')) {
+    if ((username === 'Rento' || username === 'ethan.hunt') &&
+        (password === 'Rento2025' || password === 'entity!2025')) {
       setError('');
       navigation.navigate('Main');
     } else {
